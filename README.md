@@ -53,7 +53,7 @@ int board::treasures( int t)
 	 {
 		int x = rand()% 8 + 1;
 		int y = rand()% 8 + 1;
-		while( str[x][y] != '*' && str[x][y] != '&' && str[x][y] !=' ') // <= здесь есть недоработка в последнем str[x][y] 											//вместо пустых
+		while( str[x][y] != '*' && str[x][y] != '&' && str[x][y] !=' ') // <= здесь есть недоработка в последнем str[x][y] 											//вместо пустых кавычек
 		 {                                                              //будет значение obstacle
 				str[x][y] = '*';
 				count--;
