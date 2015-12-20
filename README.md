@@ -20,14 +20,14 @@ void board::walls()
 
 	}
 	
-	for (int  j = 0 ; j < 9 ; j++)
+	for (int  j = 1 ; j < 9 ; j++)
 	{
 
 		str[j][9] = '|';
 
 	}
 
-	for (int j = 0 ; j < 9 ; j++)
+	for (int j = 1 ; j < 9 ; j++)
 	{
 
 		str[j][0] = '|';
