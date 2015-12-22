@@ -54,7 +54,7 @@ void board::walls()
 int board::treasures( int t) 
 {
 		int count = t ;
-		int count = 10; 
+		
 		while(count != 0)
 	 {
 		int x = rand()% 8 + 1;
